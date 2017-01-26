@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: ECDiegoTest
+  host: ECDiegoTest
+  disk_quota: 1024M
+  services:
+  - ECDiegoTest-personality_insights
